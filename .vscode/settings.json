@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "algorithm": "c",
+        "format": "c",
+        "descriptor_tables.h": "c",
+        "pic.h": "c",
+        "isr.h": "c",
+        "common.h": "c",
+        "paging.h": "c",
+        "frame_allocator.h": "c",
+        "heap.h": "c",
+        "kheap.h": "c"
+    }
+}
