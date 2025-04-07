@@ -180,7 +180,7 @@ static u32int contract_heap(u32int new_size, heap_t *heap)
 
     u32int old_size = heap->end_address - heap->starting_address;
     if (new_size > old_size)
-        return;
+        return 0;
 
     // dont contract too far
     if (new_size < HEAP_MIN_SIZE)
